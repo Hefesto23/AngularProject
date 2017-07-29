@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# AngularProject
-=======
-=======
->>>>>>> ff0679c857caa5c86aa501e23e4846aa57a589a9
 # Ang1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
@@ -32,10 +26,3 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-<<<<<<< HEAD
->>>>>>> new_master
-=======
-=======
-# AngularProject
->>>>>>> 1ccc3d3bb214715e0150675b3af393c9fbc235f8
->>>>>>> ff0679c857caa5c86aa501e23e4846aa57a589a9
