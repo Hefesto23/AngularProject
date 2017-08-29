@@ -1,5 +1,16 @@
 <!--The whole content below can be removed with the new code.-->
- {{ title }}
+<app-header (featureSelected)="onNavigate($event)"></app-header>
+ <div class="container">
+   <div class="col-md-12">
+    <app-recipes *ngIf="loadedFeature === 'recipe'"></app-recipes>
+    <app-shopping-list *ngIf="loadedFeature === 'shopping-list'"></app-shopping-list>
+   </div>
+ </div>
+
+ <!--<app-success></app-success>
  <br>
- <hr>
- <app-server></app-server>
+ <br>
+ <app-warning></app-warning>
+
+<app-server></app-server>
+-->

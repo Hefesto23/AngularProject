@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">New Recipe</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <!-- rcp do tipo array recebe rcpEl#}
+      e a variavel recipeSelected recebe o retorno de função -->
+  <app-recipe-item  *ngFor="let rcpEl of recipe" [rcp]='rcpEl' (recipeSelected)='onRecipeSelected(rcpEl)'></app-recipe-item>
+  </div>
+</div>

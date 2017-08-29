@@ -1,9 +1,18 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 # AngularProject
 =======
 =======
->>>>>>> ff0679c857caa5c86aa501e23e4846aa57a589a9
+
+# Bootstrap
+
+npm install --save bootstrap
+
+remember to add       
+"styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css"
+      ],
+
 # Ang1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
@@ -14,6 +23,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code scaffolding
 
+ng g c 'name' or
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
 
 ## Build

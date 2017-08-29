@@ -1,1 +1,8 @@
-{{ title }}
+
+<button class="btn btn-primary" (click)= "onCreateServer()"> Alert Button </button>
+<div [ngStyle]='{backgroundColor:getColor()}' class="">
+  <p *ngIf='serverCreated; else noServer'> <app-success></app-success> </p>
+    <ng-template #noServer>
+      <app-warning></app-warning>
+    </ng-template>
+</div>
